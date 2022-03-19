@@ -1,0 +1,171 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+.igra {
+	text-align: center;
+	margin-top: 50px;
+}
+.igra .col-md-8 ul{
+	padding: 0;
+	margin-top: 50px;
+}
+.igra .col-md-8 .ekran {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image: url("slike/pitanjeslika.jpg");
+	background-size: cover;
+	background-position: center;
+	font-size: 20px;
+}
+.igra .col-md-8 .ekran #Pobjeda{
+	margin-top: -100px;
+	margin-bottom: 50px;
+	color: gold;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: 
+	
+}
+.igra .col-md-8 ul li {
+	display: inline-block;
+	padding: 10px;
+	background-color: blue;
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-left: 50px;
+	background-color: #13099c;
+	color: #fff;
+	margin-right: 50px;
+	clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+}
+.igra .col-md-4 {
+	
+	background-color: #169ce0;
+	border: 6px solid #13099c;
+	padding: 20px;
+	text-align: center;
+		
+}
+
+.igra .col-md-4 .meni li {
+	list-style: none;
+	padding: 0;
+	color: #fff;
+	max-width: 350px;
+	margin: auto;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 25px;
+	background-color: #13099c;
+	clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+	border-top: 3px solid #13099c;
+	border-bottom: 3px solid #13099c;
+
+}
+.igra .col-md-4 .meni li:hover {
+	background-color: #00ddff;
+	color: #13099c;
+	font-weight: bold;
+
+	border-top: 3px solid #13099c;
+	border-bottom: 3px solid #13099c;
+}
+
+.igra .col-md-4 .meni a {
+	text-decoration: none;
+	
+}
+
+.igra .col-md-4 p {
+	padding: 40px;
+	margin-top: 80px;
+	border-top: 2px dotted #000;
+	border-bottom: 2px dotted #000;
+}
+
+.igra .col-md-4 #nagrade li {
+	text-decoration: none;
+	list-style: none;
+	background-color: gold;
+	clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+	max-width: 300px;
+	margin: auto;
+	margin-top: 5px;
+
+}
+.igra .col-md-4 #nagrade {
+	margin: auto;
+	padding: 0;
+}
+#dugme {
+	padding: 4px;
+	background-color: #13099c;
+	color: #fff;
+}
+
+#pitanje {
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.pomoc1 {
+	position: absolute;
+	right:5px;
+	top: 10%;
+	background-color:#13099c;
+	color: #fff; 
+	padding: 5px;
+	padding-bottom: 0px;
+	clip-path: ellipse(49% 33% at 50% 50%);
+	cursor: pointer;
+}
+
+.pomoc1 p {
+	margin-top: 10px;
+}
+.pomoc2 {
+	position: absolute;
+	right:5px;
+	top: 18%;
+	background-color:#13099c;
+	color: #fff; 
+	padding: 5px;
+	padding-bottom: 0px;
+	clip-path: ellipse(49% 33% at 50% 50%);
+	cursor: pointer;
+	height: 50px;
+	width: 48px;
+	text-align: center;
+}
+.pomoc2 i {
+	margin-top: 12px;
+}
+
+.kraj {
+	position: absolute;
+	margin-left: 10%;
+	margin-top: -25px;
+	width: 83%;
+	height: 80%;
+	background-image: url("slike/kraj.png");
+	text-align: center;
+	padding-top: 240px;
+	display: none;
+
+}
+
+.krajp{
+	color: #fff;
+	padding:20px;
+	max-width: 500px;
+	margin: auto;
+	background-color: #fff;
+	border:4px solid #000;
+	border-radius: 30px;
+	font-weight: bolder;
+	background-color: green;
+}

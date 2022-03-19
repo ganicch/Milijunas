@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="igra.css">
+	<title>PMFaš</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+	<script src="script/script.js"></script>
+	<div class="kraj" id="kraj">
+		<p class="krajp" id="krajp"></p>
+	</div>
+	
+	<div class="pomoc1" id="pomoc1" onclick="polapola()"><p>50:50</p></div>
+	<div id="pomoc2" class="pomoc2" onclick="pomocpri()"><i class="fas fa-users"></i></div>
+	<div class="igra">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="ekran">
+						<p id="Pobjeda"></p>
+						<p id="pitanje"></p>
+					</div>
+					<ul>
+						<li id="odg1" onclick="provjera1()">.</li>
+						<li id="odg2" onclick="provjera2()">.</li>
+						<br>
+						<li id="odg3" onclick="provjera3()">.</li>
+						<li id="odg4" onclick="provjera4()">.</li>
+					</ul>
+					<button onclick="kreni()" id="dugme">Krenimo</button>
+				</div>
+
+				<div class="col-md-4">
+					<ul class="meni">
+						<a href="igra.html" id="nestani" onclick="novaigra()"><li id="lijevo" >Nova Igra</li></a>
+						<a href="upute.html" id="nestani" ><li >Upute</li></a>
+						<a href="oprojektu.html" id="nestani"><li class="active" id="lijevo" >O projektu</li></a>
+					</ul>
+					<ul id="nagrade">
+						<li id="n15" class="nn">$1 MILLION</li>
+						<li id="n14" class="nn">$500,000</li>
+						<li id="n13" class="nn">$250,000</li>
+						<li id="n12" class="nn">$125,000</li>
+						<li id="n11" class="nn">$64,000</li>
+						<li id="n10" class="nn">$32,000</li>
+						<li id="n9" class="nn">$16,000</li>
+						<li id="n8" class="nn">$8,000</li>
+						<li id="n7" class="nn">$4,000</li>
+						<li id="n6" class="nn">$2,000</li>
+						<li id="n5" class="nn">$1,000</li>
+						<li id="n4" class="nn">$500</li>
+						<li id="n3" class="nn">$300</li>
+						<li id="n2" class="nn">$200</li>
+						<li id="n1" class="nn" >$100</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>		
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

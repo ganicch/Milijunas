@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.oprojektu-naslov .col-md-12 {
+	text-align: center;
+	border: 6px solid #13099c;
+	padding: 40px;
+	border-radius: 20px;
+	background-color: #169ce0;
+	clip-path: polygon(3% 0, 97% 0, 91% 100%, 8% 100%);
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.oprojektu {
+	margin-top: 10px;
+}
+
+
+.oprojektu  .col-md-9{
+	padding-right: 5px;
+	
+	
+	
+}
+.oprojektu .oprojektu2 {
+	background-color: #169ce0;
+	border: 6px solid #13099c;
+	padding: 50px;
+	text-align: center;
+	padding-top: 30px;
+	
+}
+.oprojektu .col-md-3 {
+	
+	background-color: #169ce0;
+	border: 6px solid #13099c;
+	padding: 20px;
+	text-align: center;
+		
+}
+
+.oprojektu  .col-md-9 .oprojektu2 h4 {
+	margin-top: 25px;
+	color: #fff;
+}
+
+
+.oprojektu .col-md-3 ul li {
+	list-style: none;
+	color: #fff;
+	max-width: 350px;
+	margin: auto;
+	margin-left: -30px;
+	margin-top: 20px;
+	font-size: 25px;
+	background-color: #13099c;
+	clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+	border-top: 3px solid #13099c;
+	border-bottom: 3px solid #13099c;
+
+}
+.oprojektu .col-md-3 ul li:hover {
+	background-color: #00ddff;
+	color: #13099c;
+	font-weight: bold;
+
+	border-top: 3px solid #13099c;
+	border-bottom: 3px solid #13099c;
+}
+
+.oprojektu .col-md-3 ul a {
+	text-decoration: none;
+	
+}
+
+.oprojektu .col-md-3 p {
+	padding: 40px;
+	margin-top: 80px;
+	border-top: 2px dotted #000;
+	border-bottom: 2px dotted #000;
+}

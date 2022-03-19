@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #80d4ff !important;
+	height: 100%;
+}
+.pocetna .col-md-12 {
+	text-align: center;
+	border: 6px solid #13099c;
+	padding: 50px;
+	border-radius: 20px;
+	background-color: #169ce0;
+	clip-path: polygon(3% 0, 97% 0, 91% 100%, 8% 100%);
+}
+
+.pocetna {
+	margin-top: 100px;
+}
+
+.pocetna .col-md-12 ul li {
+	
+	list-style: none;
+	color: #fff;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 25px;
+	background-color: #13099c;
+	clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+	border-top: 3px solid #13099c;
+	border-bottom: 3px solid #13099c;
+
+}
+.pocetna .col-md-12 ul li:hover {
+	background-color: #00ddff;
+	color: #13099c;
+	font-weight: bold;
+
+	border-top: 3px solid #13099c;
+	border-bottom: 3px solid #13099c;
+}
+
+.pocetna .col-md-12 ul a {
+	text-decoration: none;
+
+	
+}
+
+.pocetna .col-md-12 ul {
+	margin-top: 50px;
+
+}
+#nestani2 {
+	display: none;
+}
+
+
+body h1 {
+	font-family: cursive;
+	letter-spacing: px;
+	font-size: 70px;
+	color: #13099c;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+body h1:hover {
+	color: #2012e0;
+}
+
+ .col-md-12 .ime {
+ 	background-color: #13099c;
+ 	margin-top: 30px;
+ 	width:  200px;
+ 	color: #fff;
+ 	padding: 7px;
+ 	padding-left: 10px;
+ 	clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
+ 	text-decoration: none;
+ 	text-align: center;
+ 	
+
+}
+
+.col-md-12 .ime::placeholder {
+	color: #fff;
+	
+
+}
+.col-md-12 .ime:hover {
+	background-color: #00ddff;
+}
+
+#lijevo {
+	max-width: 400px;
+}
+
+.dugme {
+	padding:5px;
+	padding-left: 15px;
+	padding-right:15px;
+	margin-top: 20px;
+	display: inline-block;
+	margin-top: 30px;
+	background-color: #13099c;
+	clip-path: polygon(8% 0, 92% 0, 100% 50%, 92% 100%, 8% 100%, 0 50%);
+	margin-left: 10px;
+	color: #fff;
+}
+
+
+#Dobrodosao {
+	font-size: 30px;
+	color: #13099c;
+	margin-top: 30px;
+}
+
+.novac {
+	width: 300px;
+	margin-left: 15px;
+}
+
+#slike {
+	border:6px solid #13099c;
+	margin-top: 30px;
+	border-radius: 20px;
+	background-color: #169ce0;
+}
+
+@media (max-width: 1398px) {
+	.novac {
+		width: 350px;
+	}
+	#cetri {
+		display: none;
+	}
+}
+@media (max-width: 1198px){
+	.novac {
+		width: 280px;
+		margin-left: 15px: 
+	}
+
+}
+@media (max-width: 991px) {
+	.novac {
+		display: none;
+	}
+	.ime {
+		width: 400px;
+	}
+
+	#slike {
+		display: none;
+	}
+}
